@@ -1,5 +1,78 @@
+/* general rules */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* header */
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    width: 510px;
+    /* debug */
+    border: 1px solid;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 26px;
+    color: orange;
+    text-align: center;
+}
+/* main */
+main {
+    width: 510px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+h2 {
+    margin-top: ;
+}
+.container {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+}
+#col-video {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(76, 76, 181);
+    border: px solid;;
+}
+#col-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 20;
+    justify-content: space-evenly;
+    line-height: 30px;
+
+    /* debug */
+    border: 1px solid;
+}
+#icons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    height: 50pxpx;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+#col-img {
+    height: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#col-text {
+
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 25px;
 }
