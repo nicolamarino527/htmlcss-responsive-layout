@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Montserrat";
 }
 body {
     background-color: rgb(232, 232, 232);
@@ -11,23 +11,36 @@ body {
 .white {
     color: #fff;
 }
-/* -----------------header */
+.red {
+    color: rgb(230, 23, 24);
+}
+.blue {
+    color: rgb(43, 118, 243);
+}
+.light-blue {
+    color: rgb(1, 158, 255);
+}
+.purple {
+    color: rgb(226, 77, 138);
+}
+.bold {
+    font-weight: bold;
+}
+/* -----------------header----------------- */
+
 #header {
     line-height: 70px;
     color: rgb(231, 156, 17);
     width: 100%;
     background-color: #fff;
 }
-/* -----------------main */
+/* -----------------main----------------- */
 main p {
     padding-top: 20px;
 }
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-h2 {
-    margin-top: ;
 }
 main {
     margin-right: 15%;
@@ -43,7 +56,6 @@ h6 {
     font-size: 20px;
 }
 #col-video {
-    height: 450px;
     width: 70%;
 }
 #col-description {
@@ -53,8 +65,13 @@ h6 {
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     line-height: 30px;
     background-color: #fff;
+}
+#col-description-title {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 #icons {
     margin-top: 40px;
@@ -70,12 +87,27 @@ h6 {
     width: 150px;
     border: 1px solid;
     border-radius: 20px;
+    border-color: black;
     background-color: #fff;
 }
+.icon-name {
+    display: inline-block;
+    padding-left: 5px;
+  }
 #banner {
     width: 100%;
 }
+#space {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: rgb(231, 156, 17);
+    border-radius: 50px;
+    width: 100px;
+}
 #col-img {
+    padding-top: 23px;
+    margin-right: 10px;
     height: 200px;
     float: left;
 }
@@ -83,7 +115,7 @@ h6 {
     font-size: 17px;
     line-height: 30px;   
 }
-/* -----------------footer */
+/* -----------------footer----------------- */
 #footer {
     display: flex;
     justify-content: space-between;
@@ -107,13 +139,12 @@ h6 {
     flex-direction: column;
   }
   #col-video {
-    height: 300px;
     width: 100%;
   }
   #col-description {
-    height: 200px;
     width: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
   }
   .icon {
